@@ -21,7 +21,7 @@ npm install
 4. Start the WebSocket API server by running:
 
 ```bash
-node server.js
+node index.js 
 ```
 
 The server will run on `http://localhost:7070`.
@@ -48,7 +48,7 @@ The React application will be accessible at `http://localhost:3001`.
 
 ### Joystick App Interface and CSS Styling
 
-The React application interface includes a simple joystick component that generates string data when moved. Clicking on the "Up," "Down," "Left," or "Right" buttons simulates the joystick's movements. The received data from the WebSocket API will be displayed below the buttons.
+The React application interface includes a simple joystick component that generates string data when moved. Clicking on the "Up," "Down," "Left," or "Right" buttons simulate the joystick's movements. The received data from the WebSocket API will be displayed below the buttons.
 
 The application is styled using CSS to enhance the visual presentation. The styles are defined in the `style.css` file inside the `src` folder of the React application. The styles include a joystick container with flexbox layout and buttons with margins and padding for better spacing.
 
